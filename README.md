@@ -1,5 +1,16 @@
 
-# Stock Price Prediction
+# Table of Contents
+
+* [Overview](#Overview)
+* [Features](#Features)
+* [Dependencies](#Dependencies)
+* [Usage](#Usage)
+* [Code Explanation](#Code-Explanation)
+* [Results](#Results)
+* [Project Demonstration](#Project-Demonstration)
+* [References](#References)
+
+# Overview
 
 This project uses two different models for comparison, the Facebook Prophet model and a Long Short-Term Memory (LSTM) neural network to predict stock trends.
 The application is built using Streamlit for the frontend, Prophet/TensorFlow and Keras for the model, and various other libraries for data handling and visualization.
@@ -43,7 +54,7 @@ pip install streamlit yfinance pandas numpy keras tensorflow matplotlib plotly f
    
    ```bash
    streamlit run Predict.py
-   ```bash
+   ```
 
 3. In the Streamlit interface:
    - Select a stock from the dropdown menu.
@@ -86,7 +97,9 @@ The application displays two main graphs:
 ![Predicted Stocks](img/07.JPG?raw=true "Predicted Stocks")
 
 
-## REFERENCES
+## References
 • [https://www.geeksforgeeks.org/machine-learning/](https://www.geeksforgeeks.org/machine-learning/)
+
 • [https://www.youtube.com/watch?v=GwIo3gDZCVQ](https://www.youtube.com/watch?v=GwIo3gDZCVQ)
+
 • [https://finance.yahoo.com/most-active](https://finance.yahoo.com/most-active)
